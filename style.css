@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url(./netflix\ background.jpg);
+  }
+   /* logo */
+  
+  .netflix-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 45%;
+    min-height: 85vh;
+    box-shadow: 2px  3px 6px rgb(0, 0, 0);
+    
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  h2 {
+    font-size: 31px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    height: 22px;
+    width: 85%;
+    padding: 17px;
+    margin-bottom: 20px;
+    border: 0.1px solid #757474;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.512);
+    margin-left: 10px;
+  }
+  input[type="email"]::placeholder,input[type="password"]::placeholder{
+    color: white;
+
+  }
+  
+  button {
+    height: 40px;
+    width: 95%;
+    padding: 10px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 12px;
+  }
+  button:hover{
+    background-color: #bf0710;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  a:hover {
+    color: #b3adad;
+    text-decoration-line: underline;
+  }
+.login-form{
+  color: #ffffff;
+  
+} 
+.forgot{
+  color: rgb(255, 255, 255);
+
+  text-align: center;
+  padding-top: 20px;
+  font-size:100%;
+}
+.signup{
+  font-size:15px;
+  color: #b8b0b0;
+  
+}
+.learn{
+  font-size: small;
+  float: right;
+  color: #888888;
+
+}
+a.more{
+  color:rgb(41, 41, 214);
+  
+
+}
+.remember-me{
+  display: flex;
+  justify-content:flex-start;
+  
+}
+#remember{
+  color: #e50914;
+}
+.lower{
+  padding-top: 40%;
+}
+  
+/* Checkbox styles */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 0.1px solid #737070; /* White border */
+  border-radius: 6px;
+  outline: none;
+  position: relative;
+  background-color: rgb(5, 5, 5); /* Black background */
+  cursor: pointer;
+}
+
+/* Checkbox tick */
+input[type="checkbox"]:checked::before {
+  content: '\2713'; /* Unicode character for checkmark */
+  display: block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  line-height: 16px;
+  color:white; 
+}
+
+/* Checkbox hover styles */
+input[type="checkbox"]:hover {
+  background-color: #555; /* Dark gray on hover */
+}
